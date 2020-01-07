@@ -1,6 +1,8 @@
 # Rainmeter-XmlParser
 Xml Parser Plugin for Rainmeter
 
+This plugin is a wrapper around .Net System.Xml libraries.
+
 
 ### Install
 Download latest build https://github.com/e2e8/Rainmeter-XmlParser/releases
@@ -9,7 +11,7 @@ Drop XmlParser.dll into Rainmeter Plugins Folder
 
 ### Usage
 
-The plugin requires a Source and a Query. The string result returned is just the result of the XPath query (serialized if it is a list of objects). 
+The plugin requires a Source and a Query. The string result returned is just the result of the XPath query (serialized if it is a list of nodes). 
 
 In most cases the desired result will be to get the the inner text of some element. XPath provides functions for this:
 
